@@ -151,6 +151,10 @@ ul#nav {
 
    /* center align the menu */
    text-align: center;
+
+   /* add color gray */
+   background-color: #2B2B2B;
+   opacity: 0.9;
 }
 ul#nav li {
    position: relative;
