@@ -47,13 +47,16 @@ header:before {
    vertical-align: middle;
    height: 100%;
 }
+
 header .banner {
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
-   width: 85%;
-   padding-bottom: 30px;s
-   text-align: center;
+   padding: 12%;
+   padding-top: 13%;
+   text-align: center; 
+   opacity: 0.8;
+   background: #132837;
 }
 
 header .banner-text { width: 100%; }
@@ -304,7 +307,10 @@ ul#nav li.current a { color: #F06000; }
   	margin-bottom: 60px;
   	background: #ccc;
   	height: 42px;
-  	border-radius: 3px;
+   border-radius: 3px;
+   width: 40%;
+   float: left;
+   margin-left: 5%;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
@@ -1007,4 +1013,5 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
 
