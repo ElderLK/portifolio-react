@@ -33,11 +33,14 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
-   background-size: cover !important;
+   background: #161415 url(../images/motherboard-bg.gif) no-repeat top center;
+   /* background-size: cover !important; */
+   background-attachment: fixed;
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
+   margin-top: -3%;
+   /* display: flex; */
 }
 
 /* vertically center banner section */
@@ -52,11 +55,15 @@ header .banner {
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
-   padding: 12%;
-   padding-top: 13%;
+   /* padding: 12%;
+   padding-top: 13%; */
+   padding-bottom: 25%;
+   padding-top: 16%;
    text-align: center; 
    opacity: 0.8;
    background: #132837;
+   /* max-width: unset;
+    width: max-content; */
 }
 
 header .banner-text { width: 100%; }
@@ -308,9 +315,14 @@ ul#nav li.current a { color: #F06000; }
   	background: #ccc;
   	height: 42px;
    border-radius: 3px;
-   width: 40%;
-   float: left;
-   margin-left: 5%;
+}
+
+@media (min-width: 940px) {
+   .bars li {
+      width: 40%;
+      float: left;
+      margin-left: 7%;
+   }
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
@@ -649,7 +661,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background: #1F1F1F url(../images/tech-bg.gif) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -662,6 +674,8 @@ call-to-action .button {
 #testimonials .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
+   background: #132837;
+   opacity: 0.8;
 }
 #testimonials h1 {
    font: 18px/24px 'opensans-bold', sans-serif;   
