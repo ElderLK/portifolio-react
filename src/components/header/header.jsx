@@ -18,10 +18,10 @@ export default class Header extends Component {
           </nav> {/* end #nav-wrap */}
           <div className="row banner">
             <div className="banner-text">
-              <h1 className="responsive-headline">I'm Jonathan Doe.</h1>
-              <h3>I'm a Manila based <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and
-                effective visual identities for companies of all sizes around the globe. Let's <a className="smoothscroll" href="#about">start scrolling</a>
-                and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
+              <h1 className="responsive-headline">Olá :)</h1>
+              <h3>Eu sou o Elder, <span> programador backend</span>, que sabe o<span> necessário de frontend</span> e é <span>entusiasta em <u><a href="https://pt.wikipedia.org/wiki/Internet_das_coisas" target="_blank"> iot</a></u></span>. 
+                Para saber mais <a className="smoothscroll" href="#about"> navegue </a>
+                na <u><a className="smoothscroll" href="#about">página</a></u>.</h3>
               <hr />
               <ul className="social">
                 <li><a href="#"><i className="fa fa-facebook" /></a></li>

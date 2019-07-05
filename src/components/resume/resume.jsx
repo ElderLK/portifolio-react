@@ -13,25 +13,31 @@ export default class Resume extends Component {
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
-                <h3>University of Life</h3>
-                <p className="info">Master in Graphic Design <span>•</span> <em className="date">April 2007</em></p>
+                <h3>Universidade Tecnológica Federal do Paraná</h3>
+                <p className="info"><a href="http://www.utfpr.edu.br/estrutura-universitaria/pro-reitorias/prograd/catalogo-de-cursos-da-utfpr/ponta-grossa/ciencia-da-computacao" target="_black">
+                  Bacharelado em Ciência da Computação </a><span>•</span> <em className="date">Junho 2017</em></p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                  O curso oferece uma boa base matemática e raciocínio lógico. Tem enfoque para desenvolver programas e sistemas de informática, desde o planejamento do projeto até a implantação e gerenciamento do software.
                 </p>
               </div>
             </div> {/* item end */}
             <div className="row item">
               <div className="twelve columns">
-                <h3>School of Cool Designers</h3>
-                <p className="info">B.A. Degree in Graphic Design <span>•</span> <em className="date">March 2003</em></p>
+                <h3>Universidade Tecnológica Federal do Paraná</h3>
+                <p className="info"><a href="http://www.utfpr.edu.br/estrutura-universitaria/pro-reitorias/prograd/catalogo-de-cursos-da-utfpr/curitiba/tecnologia-em-automacao-industrial" target="_black">
+                  Tecnologia em Automação Industrial </a><span>•</span> <em className="date">Previsão ~ Junho 2021</em></p>
                 <p>
-                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+                  Conta com disciplinas de Matemática, Física, Eletroeletrônica e Informática. Capacita o estudante a desenvolver, implementar e manter sistemas de controle e automação industrial com o objetivo de otimizar os processos.
+                </p>
+              </div>
+            </div> {/* item end */}
+            <div className="row item">
+              <div className="twelve columns">
+                <h3>SENAI PR</h3>
+                <p className="info"><a href="http://www.senaipr.org.br/" target="_black">
+                  Técnico Mecânico Industrial </a><span>•</span> <em className="date">Junho 2010</em></p>
+                <p>
+                  O profissional tem uma base de conhecimento dos componentes, processos e dinâmicas que envolvem o funcionamento das máquinas.
                 </p>
               </div>
             </div> {/* item end */}
