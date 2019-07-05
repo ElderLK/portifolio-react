@@ -14,7 +14,7 @@ export default class Resume extends Component {
             <div className="row item">
               <div className="twelve columns">
                 <h3>Universidade Tecnológica Federal do Paraná</h3>
-                <p className="info"><a href="http://www.utfpr.edu.br/estrutura-universitaria/pro-reitorias/prograd/catalogo-de-cursos-da-utfpr/ponta-grossa/ciencia-da-computacao" target="_black">
+                <p className="info"><a href="http://www.utfpr.edu.br/estrutura-universitaria/pro-reitorias/prograd/catalogo-de-cursos-da-utfpr/ponta-grossa/ciencia-da-computacao" target="_black" rel="noopener noreferrer">
                   Bacharelado em Ciência da Computação </a><span>•</span> <em className="date">Junho 2017</em></p>
                 <p>
                   O curso oferece uma boa base matemática e raciocínio lógico. Tem enfoque para desenvolver programas e sistemas de informática, desde o planejamento do projeto até a implantação e gerenciamento do software.
@@ -24,7 +24,7 @@ export default class Resume extends Component {
             <div className="row item">
               <div className="twelve columns">
                 <h3>Universidade Tecnológica Federal do Paraná</h3>
-                <p className="info"><a href="http://www.utfpr.edu.br/estrutura-universitaria/pro-reitorias/prograd/catalogo-de-cursos-da-utfpr/curitiba/tecnologia-em-automacao-industrial" target="_black">
+                <p className="info"><a href="http://www.utfpr.edu.br/estrutura-universitaria/pro-reitorias/prograd/catalogo-de-cursos-da-utfpr/curitiba/tecnologia-em-automacao-industrial" target="_black" rel="noopener noreferrer">
                   Tecnologia em Automação Industrial </a><span>•</span> <em className="date">Previsão ~ Junho 2021</em></p>
                 <p>
                   Conta com disciplinas de Matemática, Física, Eletroeletrônica e Informática. Capacita o estudante a desenvolver, implementar e manter sistemas de controle e automação industrial com o objetivo de otimizar os processos.
@@ -34,7 +34,7 @@ export default class Resume extends Component {
             <div className="row item">
               <div className="twelve columns">
                 <h3>SENAI PR</h3>
-                <p className="info"><a href="http://www.senaipr.org.br/" target="_black">
+                <p className="info"><a href="http://www.senaipr.org.br/" target="_black" rel="noopener noreferrer">
                   Técnico Mecânico Industrial </a><span>•</span> <em className="date">Junho 2010</em></p>
                 <p>
                   O profissional tem uma base de conhecimento dos componentes, processos e dinâmicas que envolvem o funcionamento das máquinas.
